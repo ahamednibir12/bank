@@ -10,6 +10,12 @@ document.getElementById('submit-btn').addEventListener('click', function () {
   else if (userEmail != 'ahamednibir639@gmail.com' && userPassword != 'nibir123') {
     alert('please enter right email and password')
   }
+  else if (userEmail == 'ahamednibir639@gmail.com' && userPassword != 'nibir123') {
+    alert('please enter right  password')
+  }
+  else if (userEmail != 'ahamednibir639@gmail.com' && userPassword == 'nibir123') {
+    alert('please enter right Email')
+  }
 });
 
 
